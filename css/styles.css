@@ -542,14 +542,16 @@ fill: #f4f4fd;
     text-transform: uppercase;
 }
 
-.footer-text {
-    /* display: flex; */
+.footer-sub-text {
+    display: flex;
     width: 264px;
     height: 72px;
-    color: #F4F4FD;
+    color: #ffffff;
     font-size: 16px;
+    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-bottom: 16px;
 }
 
 
