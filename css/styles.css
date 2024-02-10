@@ -478,7 +478,7 @@ margin-right: 120px;
 }
 
 .footer-soc {
-margin-right: 80px;
+margin-right: auto;
 }
 
 .footer-soc-text {
@@ -636,6 +636,7 @@ color: #ffffff;
     position: absolute;
     top: 50%;
     left: 50%;
+    font-size: 12px;
     transform: translate(-50%, -50%) scale(1);
     width: 408px;
     min-height: 584px;
@@ -826,6 +827,10 @@ margin-bottom: 24px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
     border 250ms cubic-bezier(0.4, 0, 0.2, 1), 
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .footer-check:focus + .check-text span {
+    border-color: #4D5AE5;
     }
 
 
